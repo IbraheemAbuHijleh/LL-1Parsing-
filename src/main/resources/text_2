@@ -1,0 +1,18 @@
+module example2 ;
+var number : integer ;
+begin
+    number := 10 ;
+    if number > 0 then
+        if number = 10 then
+            writeint ( number ) ;
+        else
+            num := number + 1 ;
+            writeint ( num ) ;
+        end ;
+    else
+        while number < 0 do
+            writeint ( number ) ;
+            number := number + 1 ;
+        end
+    end ;
+end example2 .

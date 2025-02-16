@@ -1,0 +1,14 @@
+module example3 ;
+var count : integer ;
+begin
+    count := 1 ;
+    loop
+        writeint ( count ) ;
+        count := count + 1 ;
+        if count >= 5 then
+            x :=  10 + ( 2  * 3 ) ;
+            y := ( x + 3 ) * ( 2 - 1 ) ;
+            exit ;
+        end ;
+    until count < 20 ;
+end example3 .
